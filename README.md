@@ -1,4 +1,5 @@
 # hello-world-bot
+
 A template for creating a Twitter bot that tweets lines of a text one at a time.
 
 This is a template for the Build-a-Bot workshop at PyDX Conf 2015 in Portland, OR.
@@ -10,3 +11,11 @@ You'll need to add a text file to book.txt and a secrets.py file that contains a
 Detailed setup instructions are at https://tpinecone.gitbooks.io/build-a-bot-workshop/content/
 
 An example lives at https://twitter.com/flatlandbot
+
+# Lynn's Mods
+
+NLP side no longer tweets just 140 chars from book start and then deletes them; it now takes randomly from text, and trims to return full words. No deletion from text after.
+See @YeatsBot, book.txt is Responsibilities and Other Poems by WB Yeats.
+
+
+
